@@ -1,6 +1,9 @@
 **Финальное тестовое задание**
 
+В качестве подопытного был выбран магазин aliexpress.ru\
+В файле \test\bugs.py я временно разместил заготовки для регрессионных тестов по найденным мною дефектам.
 
-pip install -r requirements
 
-python3 -m pytest -v -s --driver Firefox --driver-path .../geckodriver.exe tests/*
+Запуск:\
+pip install -r requirements\
+python3 -m pytest -v -s --driver Firefox --driver-path ../geckodriver.exe tests/*
