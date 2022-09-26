@@ -47,7 +47,7 @@ def test_close_cookie_bar_click(get_webdriver):
 
 
 def test_smartphones_menu_click(get_webdriver):
-    """ #09 Is seller link works fine. """
+    """ #09 Is category link works fine. """
     page = MainPage(get_webdriver)
     page.smartphones_menu_click()
     page.wait_page_loaded()
