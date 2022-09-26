@@ -1,6 +1,5 @@
 
 import pytest
-# import uuid
 from selenium import webdriver
 import selenium.webdriver.firefox.options
 
